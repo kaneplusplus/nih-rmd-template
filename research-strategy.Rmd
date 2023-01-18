@@ -29,10 +29,37 @@ knitr::knit_hooks$set(plot = function(x, options) {  # set new plot hook ...
 })
 ```
 
+# Project Summary/Abstract
+
+Do this last.
+
+\pagebreak
+
+# Specfic Aims
+
+At the highest level, what is the area the study focuses on?
+
+What have I done that is relevant to the study?
+
+What are the hypotheses the initial work has generated, which will be the focus of the study.
+
+Specific Aims:
+title
+what is going to be done
+
+What comes next? What will the impact be of achieving the specific aims?
 
 # Research Strategy
 
 ## Significance
+
+Reintroduce the domain.
+
+What is the impact/significance of what is done now?
+
+What does the study do?
+
+How will this change research in the domain?
 
 #### Important significance topic.
 
@@ -43,12 +70,27 @@ knitr::knit_hooks$set(plot = function(x, options) {  # set new plot hook ...
 
 ## Innovation
 
+What is different/new/novel about this project?
+
 `r paste(stringi::stri_rand_lipsum(1, start_lipsum = FALSE), collapse = "\n\n")`
 
 * Some bullets may be helpful to the reviewers here.
 * Some bullets may be helpful to the reviewers here too.
 
 ## Approach
+
+Background - what are the existing concepts this study will use?
+How will they be put together?
+
+## Specific Aim: Title
+
+Hypothesis:  What is being tested?
+Rationale:  Why is this something we should be testing?
+Experimental Approach: How is the test going to be implemented?
+Interpretation of Results: How does the test translate to science?
+Potential Problems and Alternative Approaches: What will we do if it doesn't work?
+
+Note: Material below is for reference.
 
 ### Overview of the proposal
 `r paste(stringi::stri_rand_lipsum(2, start_lipsum = FALSE), collapse = "\n\n")`
